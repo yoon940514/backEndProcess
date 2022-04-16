@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <mapper namespace="com.company.mapper.BoardMapper">
+  	<select id="list" resultType="BoardDto">
+  		select * from mvcboard6 order by bno desc
+  	</select>
+  	<insert id="create" >
+  		insert into mvcboard6 (bname, bpass, btitle, bcontent, bip, bfile) values (#{bname},#{bpass},#{btitle},#{bcontent},#{bip},#{bfile})
+  	</insert>
+  	<select id="read" resultType="BoardDto">
+  		select * from mvcboard6 where bno=#{bno}
+  	</select>
+  	<update id="hit" >
+  		update mvcboard6 set bhit = bhit+1 where bno=#{bno}
+  	</update>
+  	<update id="update" >
+  		update mvcboard6 set btitle = #{btitle}, bcontent = #{bcontent}, bfile = #{bfile} where bno = #{bno} and bpass = #{bpass};
+  	</update>
+  	<delete id="delete" >
+  		delete from mvcboard6 where bno = #{bno}  and bpass=#{bpass};
+  	</delete>
+  
+  
+  </mapper>
