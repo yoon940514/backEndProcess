@@ -1,10 +1,8 @@
 
 <Servlet>
-
 http://yoon940514.cafe24.com/Project/home.jsp (소스 코드는 Project branch에 있습니다.)
 
 <Spring + Mybatis>
-  
 http://yoon940514.cafe24.com/imageBoard2 (소스 코드는 ImageBoard branch에 있습니다.)
 
 안녕하세요. 현재 보고 계신 프로젝트는 제가 강남그린컴퓨터아카데미에 6개월 훈련과정을 이수하면서 배운 기술을 토대로 직접 만들어본 포트폴리오입니다. 저의 포트폴리오는 로그인 회원관리 화
