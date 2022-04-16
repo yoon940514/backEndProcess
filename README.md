@@ -10,9 +10,9 @@ http://yoon940514.cafe24.com/imageBoard2 (소스 코드는 ImageBoard branch에 
 Project와 ImageBoard 2개의 포트폴리오로 구성되어 있습니다.
 이 중에서 Project는 처음부터 끝까지 제가 직접 만들어본 포트폴리오입니다. ImageBoard는 처음에 Servlet 버전으로 학원에서 만든 후 Spring은 제가 직접 적용시켜봤습니다. 
 
-Project (게시판 + 회원관리): servlet mvc, jsp, jstl, dbcp socket, connection pool 관리
+Project (게시판 + 회원관리): servlet mvc, jsp, dbcp socket, connection pool 관리, jstl
 
-ImageBoard (게시판): spring mvc, maven, jsp, jstl, mybatis, Junit4
+ImageBoard (게시판): spring mvc, maven, jsp, mybatis, Junit4, jstl
 
 ps) Tool: eclipe, filezilla, putty, tomcat, mysql
 
