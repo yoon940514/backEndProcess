@@ -12,8 +12,7 @@ ImageBoard (게시판): spring mvc, maven, jsp, jstl, mybatis, Junit4
 
 ps) Tool: eclipe, filezilla, putty, tomcat, mysql
 
-Project 폴더: 라이브러리와 스프링의 도움 거의 없이 대부분 순수 자바 코드로 구현했습니다. db 접속도 순수 jdbc + dbcp로 구현했습니다. 직접 알고리즘을 짜서 Model + view로 동적쿼리 구
-
+Project (서블릿버전): 라이브러리와 스프링의 도움 거의 없이 대부분 순수 자바 코드로 구현했습니다. db 접속도 순수 jdbc + dbcp로 구현했습니다. 직접 알고리즘을 짜서 Model + view로 동적쿼리 구
 현. 로그인 session 사용. 
 
-ImageBoard 폴더: paging 기능과 이미지/ 파일 입출력, 조회수 표시
+ImageBoard (스프링버전): paging 기능과 이미지/ 파일 입출력, 조회수 표시. aop 구현. Junit4의 log4j를 이용하여 간단한 테스트코드 작성.
