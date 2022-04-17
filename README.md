@@ -20,5 +20,5 @@ Project (서블릿버전): 라이브러리와 스프링의 도움 거의 없이 
 
 ImageBoard (스프링버전): paging 기능과 이미지/ 파일 입출력, 조회수 표시. aop 구현. Junit4의 log4j를 이용하여 간단한 테스트코드 작성. view 화면은 bootstrap을 이용했습니다.
 
-학원에서는 순수 jdbc와 dbcp, 순수 servlet + jsp 위주로 학습하여서 3월 중순에 수료 후 현재 spring framework와 spring boots를 계속 공부하고 있습니다. ERD를 직접 작성하고 이것을 토대로 Spring boot 프로젝트도 현재 만들고 있는 중입니다.
+학원에서는 순수 jdbc와 dbcp, 순수 servlet + jsp 위주로 학습하여서 3월 중순에 수료 후 현재 spring framework와 spring boots를 계속 공부하고 있습니다. ERD를 직접 설계하고 이것을 토대로 Spring boot 프로젝트도 현재 만들고 있는 중입니다.
 호스팅은 cafe24로 도메인 구입후 외장톰캣을 이용하여 배포했습니다.
