@@ -2,7 +2,7 @@ package com.example.jpaExam.domain.service;
 
 import com.example.jpaExam.domain.entity.Customers;
 import com.example.jpaExam.repository.CustomersRepository;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -10,7 +10,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import javax.transaction.Transactional;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertThrows;
 
 
 @RunWith(SpringRunner.class)
@@ -33,7 +34,7 @@ public class CustomersServiceTest {
     }
     @Test
     public void validateDuplicateCustomers() throws Exception {
-        String name = "1hoon";
+        String name = "1hon";
 
         Customers memberA = new Customers();
         memberA.setName(name);
