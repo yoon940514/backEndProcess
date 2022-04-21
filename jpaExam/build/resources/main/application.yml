@@ -6,8 +6,8 @@ spring:
 #    password:
 #    driver-class-name: org.h2.Driver
      url: jdbc:mysql://localhost:3306/yoon?serverTimezone=UTC&characterEncoding=UTF-8
-     username: yoon940514
-     password: 1357qetu
+     username: root
+     password: 1357qetU!!
      driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
