@@ -5,11 +5,12 @@ spring:
 #    username: sa
 #    password:
 #    driver-class-name: org.h2.Driver
-     url: jdbc:mysql://localhost:2222/yoon
-#     username: root
-#     password: 1357qetU!!
-     username: yoon940514
-     password: 1357qetu
+#    url: jdbc:mysql://localhost:2222/yoon
+     url: jdbc:mysql://localhost:3306/yoon
+     username: root
+     password: 1357qetU!!
+#     username: yoon940514
+#     password: 1357qetu
      driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
