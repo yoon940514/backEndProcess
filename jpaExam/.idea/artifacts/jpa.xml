@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="jpa">
+    <output-path>$PROJECT_DIR$/out/artifacts/jpa</output-path>
+    <root id="archive" name="jpa.jar" />
+  </artifact>
+</component>
