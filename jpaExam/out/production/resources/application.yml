@@ -6,12 +6,14 @@ spring:
 #    password:
 #    driver-class-name: org.h2.Driver
      url: jdbc:mysql://localhost:2222/yoon?serverTimezone=UTC&characterEncoding=UTF-8
+#     username: root
+#     password: 1357qetU!!
      username: yoon940514
      password: 1357qetu
      driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: none
     properties:
       hibernate:
       show_sql: true
