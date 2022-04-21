@@ -5,7 +5,7 @@ spring:
 #    username: sa
 #    password:
 #    driver-class-name: org.h2.Driver
-     url: jdbc:mysql://localhost:3306/yoon?serverTimezone=UTC&characterEncoding=UTF-8
+     url: jdbc:mysql://localhost:3306/?serverTimezone=UTC&characterEncoding=UTF-8
      username: root
      password: 1357qetU!!
      driver-class-name: com.mysql.cj.jdbc.Driver
