@@ -2,10 +2,14 @@
 
 <1. Servlet버전>
 http://yoon940514.cafe24.com/Project/home.jsp (소스 코드는 Project branch에 있습니다.)
+
 <2. Spring + Mybatis버전>
 http://yoon940514.cafe24.com/imageBoard2 (소스 코드는 ImageBoard branch에 있습니다.)
+
 <3. Spring boots + jpa버전>
 http://3.34.94.74:8080 (소스 코드는 jpa branch에 있습니다.)
+
+
 
 
 
@@ -24,11 +28,13 @@ jpa는 DB, 엔티티 기획과 서비스 로직 설계쪽은 인터넷 강의를
 
 
 
+
 Project : 라이브러리와 스프링의 도움 거의 없이 대부분 순수 자바 코드로 구현했습니다. db 접속도 순수 jdbc + dbcp로 구현했습니다. 직접 알고리즘을 짜서 Model + view에서 동적쿼리도 직접 구현해보고, 로그인 과정에서 session을 적극 사용했습니다. 기본 crud 외 ajax로 id/pw 중복검사, jquery+js 유효성검사. Oauth토큰을 이용한 카카오 로그인 api도 구현. view 화면은 bootstrap을 이용했습니다.
 
 ImageBoard : paging 기능과 이미지/ 파일 입출력, 조회수 표시. aop 구현. Junit4의 log4j를 이용하여 간단한 테스트코드 작성. view 화면은 bootstrap을 이용했습니다.
 
 jpa: spring boots와 jpa를 이용해서 crud 구현, spring-boot-starter-validation을 통한 유효성 검사, view 화면은 thymeleaf를 이용했습니다. 
+
 
 
 
