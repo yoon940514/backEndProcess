@@ -12,7 +12,7 @@ Project와 ImageBoard, jpa 3개의 포트폴리오로 구성되어 있습니다.
 
 이 중에서 Project는 처음부터 끝까지 제가 직접 만들어본 포트폴리오입니다.  
 
-ImageBoard는 처음에 Servlet 버전으로 학원에서 만든 후 Spring은 제가 직접 적용시켜봤습니다.  
+ImageBoard는 처음에 Servlet 버전으로 학원에서 만든 후 Spring은 제가 직접 적용시켜 보았습니다.  
 
 jpa는 DB, 엔티티 기획과 서비스 로직 설계쪽은 인터넷 강의를 보고 많이 참고했으며, 엔티티, db 설계, crud 구현, 서버 배포는 제가 직접 해보았습니다.
 
