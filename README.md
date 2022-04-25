@@ -17,3 +17,4 @@ jpa는 DB, 엔티티 기획과 서비스 로직 설계쪽은 인터넷 강의를
 3. jpa: spring boots와 jpa를 이용해서 crud 구현, spring-boot-starter-validation을 통한 유효성 검사, view 화면은 thymeleaf를 이용했습니다.   
 
 
+22년 04월 25일 20:09  ---->> 1, 3번 프로젝트 서버가 중지되는 오류 고쳤습니다. 다시 한번더 봐주시면 감사하겠습니다.
