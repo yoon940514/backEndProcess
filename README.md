@@ -24,15 +24,15 @@ jpa는 DB, 엔티티 기획과 서비스 로직 설계쪽은 인터넷 강의를
    restfulApi 구현은 dart 전자공시 사이트의 '단일회사 전체 재무제표 개발가이드' 라는 api를 사용했으며, Gson이라는 json parsing library를 사용하여 ajax 통신으로 뷰를 구성하였습니다.  
    그 사이에 http서블릿의 get, post 기능과 session, request model을 적극활용하여 나름 최소한의 코드로 공시정보를 실시간으로 얻는 창을 구현하였습니다.    
     
-그리고 관리자 페이지 checkbok select 파트에서 직접 Model을 적극 활용하여 동적쿼리도 구현해보았고, 로그인 과정에서 session을 적극 사용했습니다.  
-기본 crud 외 ajax로 id/pw 중복검사, jquery+js 유효성검사. Oauth토큰을 이용한 카카오 로그인 api도 구현.  
+  회원관리 페이지는 사용자/관리자 페이지를 구분하여 구현하였고, 관리자 검색 페이지에서 동적쿼리도 직접 코드로 구현해보았습니다. 로그인 과정에서 session을 적극 사용했습니다.  
+기본 crud 외 ajax로 id/pw 중복검사, jquery+js 유효성검사. Oauth토큰을 이용한 카카오 로그인 api도 구현했습니다. 
 view 화면은 bootstrap을 이용했습니다.  
-9. ImageBoard : paging 기능과 이미지/ 파일 입출력, 조회수 표시. aop 구현. Junit4의 log4j를 이용하여 간단한 테스트코드 작성. view 화면은 bootstrap을 이용했습니다.  
-10. jpa: spring boots와 jpa를 이용해서 crud 구현, spring-boot-starter-validation을 통한 유효성 검사, 간단한 테스트코드 작성. view 화면은 thymeleaf를 이용했습니다.   
-
+2. ImageBoard : paging 기능과 이미지/ 파일 입출력, 조회수 표시. aop 구현. Junit4의 log4j를 이용하여 간단한 테스트코드 작성. view 화면은 bootstrap을 이용했습니다.  
+3. jpa: spring boots와 jpa를 이용해서 crud 구현, spring-boot-starter-validation을 통한 유효성 검사, 간단한 테스트코드 작성. view 화면은 thymeleaf를 이용했습니다.   
 
 22년 04월 25일 20:09  ---->> 1, 3번 프로젝트 서버가 중지되는 오류 고쳤습니다. 다시 한번더 봐주시면 감사하겠습니다.  
 
+<openapi 정보>
 '단일회사 전체 재무제표 개발가이드' ----------------->>>>>>>>   https://opendart.fss.or.kr/guide/detail.do?apiGrpCd=DS003&apiId=2019020 
 
 
