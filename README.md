@@ -32,7 +32,7 @@ view 화면은 bootstrap을 이용했습니다.
 
 22년 04월 25일 20:09  ---->> 1, 3번 프로젝트 서버가 중지되는 오류 고쳤습니다. 다시 한번더 봐주시면 감사하겠습니다.  
 
-<openapi 정보>
+<opendart api 정보>
 '단일회사 전체 재무제표 개발가이드' ----------------->>>>>>>>   https://opendart.fss.or.kr/guide/detail.do?apiGrpCd=DS003&apiId=2019020 
 
 
