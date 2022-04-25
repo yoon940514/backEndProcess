@@ -5,10 +5,12 @@ spring:
 #    username: sa
 #    password:
 #    driver-class-name: org.h2.Driver
-#    url: jdbc:mysql://localhost:2222/yoon
+#ec2
      url: jdbc:mysql://localhost:3306/yoon
      username: root
      password: 1357qetU!!
+# 로컬
+#     url: jdbc:mysql://localhost:2222/yoon
 #     username: yoon940514
 #     password: 1357qetu
      driver-class-name: com.mysql.cj.jdbc.Driver
@@ -21,4 +23,6 @@ spring:
       database-platform: org.hibernate.dialect.MySQL8Dialect
 logging.level:
   org.hibernate.SQL: debug
+  server:
+    port: 8081
 # org.hibernate.type: trace
