@@ -17,7 +17,7 @@ jpa는 DB, 엔티티 기획과 서비스 로직 설계쪽은 인터넷 강의를
    
    restfulApi 구현은 dart 전자공시 사이트의 '단일회사 전체 재무제표 개발가이드' 라는 api를 사용했으며, Gson이라는 json parsing library를 사용하여 ajax 통신으로 뷰를 구성하였습니다.  
    그 사이에 http서블릿의 get, post 기능과 session, request model을 적극활용하여 나름 최소한의 코드로 공시정보를 실시간으로 얻는 창을 구현하였습니다.
-db 접속도 순수 jdbc + dbcp로 구현했습니다. 직접 알고리즘을 짜서 Model + view에서 동적쿼리도 직접 구현해보고, 로그인 과정에서 session을 적극 사용했습니다. 기본 crud 외 ajax로 id/pw 중복검사, jquery+js 유효성검사. Oauth토큰을 이용한 카카오 로그인 api도 구현. view 화면은 bootstrap을 이용했습니다.  
+회원관리 페이지와 게시판 같은 경우는 db 접속도 순수 jdbc + dbcp로 구현했습니다. 그리고 관리자 페이지 checkbok select 파트에서 직접 Moder을 적극 활용하여 동적쿼리도 구현해보았고, 로그인 과정에서 session을 적극 사용했습니다. 기본 crud 외 ajax로 id/pw 중복검사, jquery+js 유효성검사. Oauth토큰을 이용한 카카오 로그인 api도 구현. view 화면은 bootstrap을 이용했습니다.  
 9. ImageBoard : paging 기능과 이미지/ 파일 입출력, 조회수 표시. aop 구현. Junit4의 log4j를 이용하여 간단한 테스트코드 작성. view 화면은 bootstrap을 이용했습니다.  
 10. jpa: spring boots와 jpa를 이용해서 crud 구현, spring-boot-starter-validation을 통한 유효성 검사, 간단한 테스트코드 작성. view 화면은 thymeleaf를 이용했습니다.   
 
