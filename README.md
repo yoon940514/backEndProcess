@@ -17,11 +17,11 @@ ImageBoard는 처음에 Servlet 버전으로 학원에서 만든 후 Spring은 �
 jpa는 DB, 엔티티 기획과 서비스 로직 설계쪽은 인터넷 강의를 보고 많이 참고했으며, 엔티티, db 설계, crud 구현, 서버 배포는 제가 직접 해보았습니다.
 
 1. Project : 라이브러리와 스프링의 도움 거의 없이 대부분 순수 자바 코드로 구현했습니다.  
-   크게 게시판과 JasonParsing을 통한 restfulApi 구현, 회원관리 페이지로 나뉩니다.  
+   크게 게시판과 JasonParsing을 통한 restfulApi 구현 (공시정보 실시간 파악), 회원관리 페이지로 나뉩니다.  
    
    게시판은 기본적인 crud 이외에, 파일 입출력, 페이징 등 여러 기능을 넣었습니다.  
    
-   restfulApi 구현은 dart 전자공시 사이트의 '단일회사 전체 재무제표 개발가이드' 라는 api를 사용했으며, Gson이라는 json parsing library를 사용하여 ajax 통신으로 뷰를 구성하였습니다.  
+   restfulApi 구현은 dart 전자공시 사이트의 '단일회사 전체 재무제표 개발가이드' 라는 api를 사용했으며, Gson이라는 json parsing library를 사용하여 ajax 통신으로 뷰를 구현했습니다.  
    그 사이에 http서블릿의 get, post 기능과 session, request model을 적극활용하여 나름 최소한의 코드로 공시정보를 실시간으로 얻는 창을 구현하였습니다.    
     
   회원관리 페이지는 사용자/관리자 페이지를 구분하여 구현하였고, 관리자 검색 페이지에서 동적쿼리도 직접 코드로 구현해보았습니다. 로그인 과정에서 session을 적극 사용했습니다.  
