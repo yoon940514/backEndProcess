@@ -31,7 +31,7 @@ view 화면은 bootstrap을 이용했습니다.
 3. jpa: spring boots와 jpa를 이용해서 crud 구현, spring-boot-starter-validation을 통한 유효성 검사, 간단한 테스트코드 작성. view 화면은 thymeleaf를 이용했습니다.   
 
 22년 04월 25일 20:09  ---->> 1, 3번 프로젝트 서버가 중지되는 오류 고쳤습니다. 다시 한번더 봐주시면 감사하겠습니다.  
-22년 04월 28일 1:58 ------>> 카카오 로그인 localhost로 redirect 되는 현상 수정했습니다.
+22년 04월 28일 1:58 ------>> 카카오 로그인시 url이 localhost로 redirect 되는 현상 수정했습니다.
 
 <opendart api 정보>
 '단일회사 전체 재무제표 개발가이드' ----------------->>>>>>>>   https://opendart.fss.or.kr/guide/detail.do?apiGrpCd=DS003&apiId=2019020 
