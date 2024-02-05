@@ -1,12 +1,5 @@
 
 
-<1. Servlet버전>
-http://yoon940514.cafe24.com/Project/home.jsp (소스 코드는 Project branch에 있습니다.)  
-<2. Spring + Mybatis버전>
-http://yoon940514.cafe24.com/imageBoard2 (소스 코드는 ImageBoard branch에 있습니다.)  
-<3. Spring boot + jpa버전>
-http://3.34.94.74:8080 (소스 코드는 jpa branch에 있습니다.)
-
 안녕하세요. 현재 보고 계신 프로젝트는 제가 강남그린컴퓨터아카데미에 6개월 훈련과정을 이수하면서 배운 기술을 토대로 만들었습니다.  
 Project와 ImageBoard, jpa 3개의 포트폴리오로 구성되어 있습니다.
 
